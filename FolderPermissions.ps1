@@ -1,15 +1,15 @@
 <#
 .DESCRIPTION
 
-###########################################################################################################
-# Author: Francisco Manigrasso                                                                            #
-# Version: 1.0 03/23/2023                                                                                 #
-#                                                                                                         #
-# This script will provide you all the folders permissions and permission level for a specific mailbox,   #
-# avoiding the default ones. The script output is a csv file in C:\temp\FoldersPermissionsOutput.csv.     #
-# If the script doesn't find any user permissions, it will not export any file and you'll see the output  #
-# in PS: "There are no user permissions for this mailbox folders"                                         #
-###########################################################################################################
+###############################################################################################################
+# Author: Francisco Manigrasso                                                                                #
+# Version: 1.0 03/23/2023                                                                                     #
+# https://techcommunity.microsoft.com/t5/exchange/get-permissions-for-all-folders-in-a-mailbox-ps/m-p/3776808 #
+# This script will provide you all the folders permissions and permission level for a specific mailbox,       #
+# avoiding the default ones. The script output is a csv file in C:\temp\FoldersPermissionsOutput.csv.         #
+# If the script doesn't find any user permissions, it will not export any file and you'll see the output      #
+# in PS: "There are no user permissions for this mailbox folders"                                             #
+###############################################################################################################
 
 ------------------------------------------- DISCLAIMER ----------------------------------------------------
 
